@@ -1,5 +1,25 @@
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) { 
+
+.iconos .figure{
+  float: none;
+  width: auto;
+  text-align: center;
+
+}
+
+.iconos .figure img{
+	text-align: center;
+
+	}
+
+.textoicono{
+  float: auto;
+  width: auto;
+  text-align: center;
+}
+
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { ... }

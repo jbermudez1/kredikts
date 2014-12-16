@@ -1,3 +1,139 @@
 html, body {
 	min-height: 100%
 }
+
+
+/* -------------- BANNER -------------- */
+.banner{
+height: 250px;
+background: rgba(65,148,204,1);
+background: -moz-linear-gradient(top, rgba(65,148,204,1) 0%, rgba(47,74,122,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(65,148,204,1)), color-stop(100%, rgba(47,74,122,1)));
+background: -webkit-linear-gradient(top, rgba(65,148,204,1) 0%, rgba(47,74,122,1) 100%);
+background: -o-linear-gradient(top, rgba(65,148,204,1) 0%, rgba(47,74,122,1) 100%);
+background: -ms-linear-gradient(top, rgba(65,148,204,1) 0%, rgba(47,74,122,1) 100%);
+background: linear-gradient(to bottom, rgba(65,148,204,1) 0%, rgba(47,74,122,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4194cc', endColorstr='#2f4a7a', GradientType=0 );
+}
+
+#imageWrapper { position: relative; } /* height is for display purposes only */
+#bottomImage { position: absolute; bottom: 0; }
+
+.inline{
+  display: inline-block !important;
+}
+
+
+/* -------------- FONTS --------------*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,100);
+
+.robotob{
+    	font-family: 'Roboto';
+      font-weight: 400;
+  
+     
+}
+
+.robotol{
+    font-family: 'Roboto';
+    font-weight: 100;
+  
+}
+
+/*TAMAÑO*/
+.t1{
+  font-size: 2.5em;
+}
+
+.t2{
+  font-size: 1.5em;
+}
+
+.t3{
+  font-size: 1.2em;
+}
+
+.sub{
+  font-size: 1.4em;
+}
+
+/*COLORES*/
+
+.azulito{
+  color: #439dd7;
+}
+
+.azul{
+  color: #00338d;
+}
+
+.gris{
+  color: #7c7c7c;
+}
+
+.blanco{
+  color:#ffffff;
+}
+
+
+/* -------------- MARGENES -------------- */
+
+.inter{
+  line-height: 35px;
+}
+
+.intersub{
+  line-height: 22px;
+} 
+
+.margen0{
+  margin-top: 10px;
+}
+
+.margen1{
+  margin-top: 20px;
+}
+
+.padlogo{
+  padding: 10px;
+}
+
+
+/* -------------- FONDOS --------------*/
+
+.backgris{
+  background-color: #efefef;
+}
+
+.backgrisbajito{
+  background-color: #f3f3f3;
+}
+
+.backpie{
+  background-color: #e2e2e2;
+}
+
+
+/* -------------- ESPECIALES --------------*/
+
+.recorte{
+  position: relative;
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  
+}
+.center {
+  position: absolute; 
+  top: -20%;
+}
+
+.iconos .figure{
+  float: left;
+  width: 30%;
+}
+
+.textoicono{
+  float: left;
+  width: 50%;
+}
