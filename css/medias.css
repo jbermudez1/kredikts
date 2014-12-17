@@ -19,6 +19,44 @@
   text-align: center;
 }
 
+.iconos2 .figure{
+  float: none;
+  width: auto;
+  text-align: center;
+
+}
+
+.iconos2 .figure img{
+	text-align: center;
+
+	}
+
+.textoicono2{
+  float: auto;
+  width: auto;
+  text-align: center;
+}
+
+.recorte{
+  height: 300px;
+}
+
+.banner .container > div{
+  float: left;
+  clear: none;
+}
+
+.imagenbanner, .imagenbanner img{
+  height: 250px;
+  width: auto;
+}
+
+.imagenbanner{
+   position: relative;
+
+
+}
+
 }
 
 /* Medium devices (desktops, 992px and up) */

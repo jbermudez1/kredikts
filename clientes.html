@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+       <title>Título</title>
+       <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+       <meta charset="UTF-8" />
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <!-- bootstrap -->
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+       <!-- font -->
+       <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+       <!-- Estilos -->
+       <link href="css/estilos.css" rel="stylesheet">
+       <link href="css/medias.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+       
+       <nav>
+            <div class="backgris text-center">
+
+              <img src="img/logo.png" class="img-responsive inline padlogo">
+            </div>
+       </nav>
+       <!-- BANNER -->     
+       <section class="banner2" id="imageWrapper" >            
+              <div class="container">
+                <p class="robotol t1 text-left blanco inter margen0">Estado de cuenta mensual</p>
+              </div>
+                          
+       </section>
+       <!-- XS -->
+       <section class="container margen1 hidden-lg hidden-sm">
+        <p class="robotol t1-1 azul inter">Juan Francisco Álvarez Ruiz</p>
+       
+        <p >Pago <span class="azul robotol t1">$ 1,987</span></p>
+         
+        <p>Fecha límite de pago<br>
+           <span class="azul robotol t2">15 - Diciembre - 2014</span></p>
+        <p>Límite de credito  <b>$ 10,000.00</b><br>
+           Saldo anterior     <b>$   8,090.00</b></p>
+        <p class="azul robotol t3">Pagos:   15  /  20</p>
+        <p class="t4  gris">RFC ALR 902342 243<br>
+            No. de Cuenta: 2343 1341 4234 2352<br>
+            No. de Cliente: 12351235</p>
+        <div class="text-center">
+             <button type="button" class="btn btn-primary margen0 robotol t2" style="width:330px;">Actualiza tu
+              información personal</button>
+              <button type="button" class="btn btn-primary margen0 robotol t2" style="width:330px;">Descarga tu factura
+                electrónica</button>
+        </div>
+        </section>
+
+        <!-- SM LG-->
+        <section class="container margen1 hidden-xs">
+        <p class="robotol t1 azul inter">Juan Francisco Álvarez Ruiz</p>
+        <div class="row">
+          <div class="col-sm-4">
+              
+              <p class="gris">RFC ALR 902342 243<br>
+                  No. de Cuenta: 2343 1341 4234 2352<br>
+                  No. de Cliente: 12351235</p>
+              
+             <button type="button" class="btn btn-primary margen0 robotol t2" style="width:330px;">Actualiza tu
+              información personal</button><br>
+              <button type="button" class="btn btn-primary margen0 robotol t2" style="width:330px;">Descarga tu factura
+                electrónica</button>
+          </div>
+          <div class="col-sm-4 text-right">
+            <p >Pago <span class="azul robotol t1">$ 1,987</span></p>
+            <p>Fecha límite de pago<br>
+            <span class="azul robotol t2">15 - Diciembre - 2014</span></p>
+            <p>Límite de credito  <b>$ 10,000.00</b><br>
+               Saldo anterior     <b>$   8,090.00</b></p>
+            <p class="azul robotol t3">Pagos:   15  /  20</p>
+          </div>
+
+          <div class="col-sm-4">
+            <img src="img/grafica.png"  class="img-responsive inline" >
+          </div>
+         
+        </section>
+
+
+        <hr>
+
+        <!-- SECCION TABLA -->
+
+        <section class="container margen1">
+          <p class="robotol t1-1 azul inter text-center">Elige un periodo.</p>
+          <div class="text-center">
+            <select class="form-control inline" style="width:320px">Periodos</select>
+          </div>
+          <p class="azulito text-center t2 robotol margen0">1 al 15 de diciembre de 2014</p>
+
+          <table class="table table-bordered">
+            <tr class="info azul robotol">
+              <td>Día</td>
+              <td>Concepto</td>
+              <td>Abono</td>
+              <td>Cargo</td>
+              <td>Total</td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td>PAGO CON TARJETA<br>0000979</td>
+              <td>$3,098.00</td>
+              <td></td>
+              <td>$12,098.00</td>
+            </tr>
+            <tr class="active">
+              <td>15</td>
+              <td>PAGO CON TARJETA<br>0000979</td>
+              <td></td>
+              <td>$3,098.00</td>
+              <td>$12,098.00</td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td>PAGO CON TARJETA<br>0000979</td>
+              <td>$3,098.00</td>
+              <td></td>
+              <td>$12,098.00</td>
+            </tr>
+            <tr class="active">
+              <td>15</td>
+              <td>PAGO CON TARJETA<br>0000979</td>
+              <td></td>
+              <td>$3,098.00</td>
+              <td>$12,098.00</td>
+            </tr>
+          </table>
+
+        </section>
+        <nav class="text-center">
+          <ul class="pagination pagination-sm">
+            <li class="disabled"><a href="#"><span aria-hidden="true">&laquo;</span><span class="sr-only">Previous</span></a></li>
+            <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#"><span aria-hidden="true">&raquo;</span><span class="sr-only">Next</span></a></li>
+            
+          </ul>
+        </nav>
+           
+
+
+        <!-- PIE -->
+
+        
+       <footer class="backpie margen1">
+         <article class="backgrisbajito" style="height:20px;">
+         </article>
+         <div class="container text-center">
+          <p class="robotol t2 azul intersub text-center margen0">Encuentra la sucursal<br>más cercana</p>
+            <select class="form-control inline" >Selecciona tu Estado</select>
+            <select class="form-control inline margen0" >Selecciona tu Estado</select>
+            <button type="button" class="btn btn-primary margen1 robotol t2" style="width:300px;">Buscar</button>
+         
+
+             <hr style="color:#ffffff">
+             <p class="robotol t2 azul intersub text-center margen0">Comunícate con nosotros</p>
+             <p class="text-left">Tus sueños están al alcance de mano, pues te damos la de tener lo 
+                que necesitas, en el momento que lo deseas.</p>
+             <p class="text-left t3"><i class="fa fa-phone"></i>  Tel. 325 24 23   /   01 800 342 2323</p>
+             <p class="text-left t3"><i class="fa fa-envelope"></i>  ayuda@kredits.com.mx</p>
+             
+
+         </div>
+         <div class="container padlogo text-center">
+           <img src="img/pielogo.png"  class="img-responsive inline" >
+             <p class="gris"> /  Copyright 2014.    Política de Privacida.</p>
+         </div>
+        <!-- <div class="margen1 backgrisbajito" style="height:20px;">
+        </div>
+        <div class="backpie  text-center" >
+          <div class="margen1 backpie">
+            <p class="robotol t2 azul intersub">Encuentra la sucursal<br>más cercana</p>
+            <select class="form-control inline" style="width:90%">Selecciona tu Estado</select>
+            asdfasdf
+            asdfadfsa
+          </div>
+        </div> -->
+       </footer>
+       <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  </body>
+</html>
+
+    
