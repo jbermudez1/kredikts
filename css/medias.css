@@ -40,23 +40,21 @@
 .recorte{
   height: 300px;
 }
-
-.banner .container > div{
-  float: left;
-  clear: none;
-}
-
-.imagenbanner, .imagenbanner img{
-  height: 250px;
-  width: auto;
-}
-
-.imagenbanner{
-   position: relative;
-
+.imagenbanner img{
+   position: absolute;
+  bottom: 0;
+  width: auto;;
+   max-height: 90%;
+ margin-right: auto;
+ margin-left: auto;
+ left: 10%;
+ right: auto;
 
 }
 
+footer {
+  text-align: left;
+}
 }
 
 /* Medium devices (desktops, 992px and up) */

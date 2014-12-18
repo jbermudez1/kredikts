@@ -1,3 +1,7 @@
+
+/* -------------- FONTS --------------*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,100);
+
 html, body {
 	min-height: 100%
 }
@@ -36,27 +40,31 @@ background: linear-gradient(to bottom, rgba(65,148,204,1) 0%, rgba(47,74,122,1) 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4194cc', endColorstr='#2f4a7a', GradientType=0 );
 }
 
-.imagenbanner, .imagenbanner img{
-  height: 180px;
-  width: auto;
+.imagenbanner, .imagenbanner {
+float: left;
  
 }
 
-.imagenbanner{
+.imagenbanner img{
    position: absolute;
   bottom: 0;
+  width: auto;;
+   max-height: 90%;
+ margin-right: auto;
+ margin-left: auto;
+ left: 0;
+ right: 0;
 
 }
 
-.banner .container > div{
+/*.banner .container > div{
   clear: both;
 }
+*/
+section {
+  padding-bottom: 5em;
+}
 
-
-
-
-/* -------------- FONTS --------------*/
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,100);
 
 .robotob{
     	font-family: 'Roboto';
@@ -180,3 +188,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4194cc', end
   float: left;
   width: 50%;
 }
+footer {
+  text-align: center;
+}
+
+
+
+
